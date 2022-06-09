@@ -1,6 +1,11 @@
+## 生成工具
+> 如果不想体验手工打包，可以直接使用release中现成的工具，跳过这一步。
+
 运行maven package命令，打包。
+
 在target目录生成文件：CalcStorageTool-jar-with-dependencies.jar
 
+## 运行工具
 在命令行窗口运行
 java -jar CalcStorageTool-jar-with-dependencies.jar [ip] [port] [username] [password]
 
